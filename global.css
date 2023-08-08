@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: rgb(255,245,249);
+    background: radial-gradient(circle, rgba(255,245,249,1) 0%, rgba(127,220,252,1) 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.photoGlace {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    /* background-blend-mode: darken;
+    filter: brightness(0.5); */
+}
+
+.titre {
+    text-align: justify;
+    font-size: 50px;
+    color: rgb(56, 152, 247);
+    position: absolute;
+    top : 350px;
+    left : 50px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    position: absolute;
+    top: 400px;
+    right: 50px;
+}
+
+.lien {
+    font-size: 40px;
+    color: rgb(56, 152, 247);
+}
+
+.connexion {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.label {
+    font-size: 25px;
+}
+.input {
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.bouton {
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(114, 176, 243);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+option {
+    font-size: 15px;
+}
+
+.select {
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 28px;
+}
+
+.boutonValider {
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(114, 176, 243);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+

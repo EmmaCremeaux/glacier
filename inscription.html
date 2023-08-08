@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="inscription.css">
+    <link rel="stylesheet" href="global.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img class="photoGlace" src="/glace.jpg" alt="">
+        <h1 class="titre">Inscription</h1>
+        <nav class="navBar">
+            <a class="lien" href="/accueil.html">Accueil</a>
+            <a class="lien" href="/gestionStock.html">Gerer le stock</a>
+        </nav>
+    </div>
+
+    <form class="form" action="http://localhost/Glacier/data.php" method="post" >
+        <div class="center">
+            <label class="label" for="email" name="email">Email :</label>
+            <input class="input" type="email" name="email" placeholder="bob@example.com">
+            
+            <label class="label" for="password" name="passwordUser">Mot de passe :</label>
+            <input class="input" type="password" name="passwordUser">
+
+            <label class="label" for="">Rôle :</label>
+            <input class="input" type="number" name="roleUser">
+        </div>
+        
+        <button class="bouton" type="submit" value="inscription">Inscription</button>
+    </form>
+
+</body>
+</html>

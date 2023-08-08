@@ -1,0 +1,12 @@
+.noCompte {
+    font-size: 25px;
+    text-align: center;
+}
+
+.lienInscription {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 100px;
+    text-decoration: underline;
+    color: green;
+}
